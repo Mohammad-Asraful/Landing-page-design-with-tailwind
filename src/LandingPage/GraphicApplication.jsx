@@ -70,7 +70,7 @@ const GraphicApplication = () => {
                      {/* <!-- card 2 --> */}
                      <div className="graphic_card p-[30px] bg-white border border-solid border-[#e5e5e5]">
                         <img className='w-full mb-5' src={sms_img} alt="" />
-                        <h4 className='font-bold mb-[15px]'>SEO Optimization</h4>
+                        <h4 className='font-bold mb-[15px]'>SMS Geteway</h4>
                         <p>
                            Lorem Ipsum este pur şi simplu mac hetă pentru text a industriei
                            tip ografice. Lorem Ipsum a fost
@@ -81,7 +81,7 @@ const GraphicApplication = () => {
                      {/* <!-- card 3 --> */}
                      <div className="graphic_card p-[30px] bg-white border border-solid border-[#e5e5e5]">
                         <img className='w-full mb-5' src={payment_img} alt="" />
-                        <h4 className='font-bold mb-[15px]'>SEO Optimization</h4>
+                        <h4 className='font-bold mb-[15px]'>Payment Geteway</h4>
                         <p>
                            Lorem Ipsum este pur şi simplu mac hetă pentru text a industriei
                            tip ografice. Lorem Ipsum a fost
@@ -92,7 +92,7 @@ const GraphicApplication = () => {
                      {/* <!-- card 4 --> */}
                      <div className="graphic_card p-[30px] bg-white border border-solid border-[#e5e5e5]">
                         <img className='w-full mb-5' src={cdn_img} alt="" />
-                        <h4 className='font-bold mb-[15px]'>SEO Optimization</h4>
+                        <h4 className='font-bold mb-[15px]'>CDN Integration</h4>
                         <p>
                            Lorem Ipsum este pur şi simplu mac hetă pentru text a industriei
                            tip ografice. Lorem Ipsum a fost

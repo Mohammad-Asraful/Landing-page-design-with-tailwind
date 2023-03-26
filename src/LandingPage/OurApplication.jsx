@@ -33,22 +33,22 @@ const OurApplication = () => {
 
                      <div className="leading-[3]">   {/* class: check_input_list */}
                         <div className='flex justify-start items-center gap-[10px] w-max'>
-                           <input type="checkbox" />
+                           <input checked type="checkbox" />
                            <p>Refresing to get such a personal touch</p>
                         </div>
 
                         <div className='flex justify-start items-center gap-[10px] w-max'>
-                           <input type="checkbox" />
+                           <input checked type="checkbox" />
                            <p>If you are going to use a passage</p>
                         </div>
 
                         <div className='flex justify-start items-center gap-[10px] w-max'>
-                           <input type="checkbox" />
+                           <input checked type="checkbox" />
                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </div>
 
                         <div className='flex justify-start items-center gap-[10px] w-max'>
-                           <input type="checkbox" />
+                           <input checked type="checkbox" />
                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </div>
                      </div>
