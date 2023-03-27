@@ -53,15 +53,15 @@ const GoogleStore = () => {
                   {/* <!-- google text side end --> */}
 
                   {/* <!-- mid image start --> */}
-                  <div className="absolute bottom-[-45px] left-[400px]">   {/* class: mid_img */}
-                     <img className='w-full' src={middle_img} alt="" />
+                  <div className="absolute bottom-[54px] left-[435px]">   {/* class: mid_img */}
+                     <img className='w-4/5' src={middle_img} alt="" />
                   </div>
                   {/* <!-- mid image end --> */}
 
                   {/* <!-- google img side start --> */}
-                  <div style={backgroundImage} className="google_img_side w-1/2">   {/* class: google_img_side */}
+                  <div style={backgroundImage} className="google_img_side w-1/2 m-[0_auto]">   {/* class: google_img_side */}
                      <div className="">   {/* class: mobile_img */}
-                        <img className='w-full px-[50px]' src={right_side_img} alt="" />
+                        <img className='w-full pl-5 py-[50px]' src={right_side_img} alt="" />
                      </div>
                   </div>
                   {/* <!-- google img side end --> */}

@@ -23,7 +23,7 @@ const Hero = () => {
                         Trending Apps On Play Store.
                      </p>
 
-                     <h1 className="text-[52px] w-[500px] mt-[30px] mb-9">    {/* class: benifit_headline */}
+                     <h1 className="text-[52px] w-[500px] mt-[30px] mb-9 font-[600]">    {/* class: benifit_headline */}
                         Get <span className="underline"> Benifit </span>
                         By Using Trending
                         <span className="text_circle"> Apps </span>
@@ -58,7 +58,7 @@ const Hero = () => {
                            src={man_blue}
                            alt="Man circle img" />
                         <div className="flex justify-center items-start flex-col p-5 w-[172px] h-[120px] bg-white border border-solid border-[#eff0f2] shadow-[0px_4px_16px_#00000008] rounded-[5px] absolute top-[-50px] left-[40%]">      {/* class: app_selling */}
-                           <h2>5.00</h2>
+                           <h2 className='text-[#0CCD6B] text-[35px] font-bold'>5.00</h2>
                            <p>Top selling Apps</p>
                         </div>
                      </div>
@@ -76,14 +76,14 @@ const Hero = () => {
                            </div>
 
                            <div className="flex justify-start items-center gap-[10px]">   {/* class: privacy_green */}
-                              <div className='w-[10px] h-[10px] rounded-full bg-[#06d14b]'></div>
+                              <div className='w-[10px] h-[10px] rounded-full bg-[#06d04a]'></div>
                               <li className='w-max text-[#677294]'>First Youtube videos Uploaded</li>
                            </div>
                         </ul>
                      </div>
                      {/* <!--  --> */}
-                     <div className="w-[180px] py-5 px-[25px] bg-white border border-solid border-[#eff0f2] shadow-[0px_4px_18px_#0000000f] rounded-[5px]">  {/* class: install_app */}
-                        <h1 className='text-[35px] text-[#fd8619]'>35 K+</h1>
+                     <div className="w-[200px] py-5 px-[25px] bg-white border border-solid border-[#eff0f2] shadow-[0px_4px_18px_#0000000f] rounded-[5px]">  {/* class: install_app */}
+                        <h1 className='text-[35px] text-[#fd8619] font-bold'>35 K+</h1>
                         <p>Active Install Apps</p>
                      </div>
                   </div>

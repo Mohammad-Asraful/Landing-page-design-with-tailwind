@@ -23,17 +23,19 @@ const GraphicApplication = () => {
                            Choose App?
                         </p>
 
-                        <h1 className="graphic_header mb-[50px]">
+                        <h1 className="graphic_header mb-[50px] text-3xl font-bold">
                            Best Graphic Interface Through <br />
                            Latest Application Showing
                         </h1>
 
-                        <p className="graphic_description mb-10 leading-[2]">
-                           " The other hand we denounce with righteou indg ation and
+                        <p className="graphic_description mb-10 leading-[2] text-[#14212BB2]">
+                           <span className='text-[#5F2DED] text-[21px] font-extrabold'>“ </span>
+                           The other hand we denounce with righteou indg ation and
                            dislike men who are so beguiled and demorali ed by the of
                            pleasure of the moment.Dislike men who are so beguiled and
                            demoraliz worlds ed by the charms of pleasure of the moment.
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           <span className='text-[#5F2DED] text-[21px] font-extrabold'> ”</span>
                         </p>
 
                         <div className="graphic_profile flex justify-start items-center gap-5">
@@ -41,7 +43,7 @@ const GraphicApplication = () => {
                               src={profile_img}
                               alt="" />
                            <div>
-                              <h4>Cameron Williamson</h4>
+                              <h4 className='font-bold'>Cameron Williamson</h4>
                               <small>UI/Ux Designer</small>
                            </div>
                         </div>

@@ -41,7 +41,7 @@ const MaintainYourself = () => {
                      <p className="text-lg mb-6">  {/* class: app_little_header */}
                         <span className='text-[#ec0d0d]'># Why </span>
                         Choose App?</p>
-                     <h1 className='mb-5'>
+                     <h1 className='mb-5  font-bold text-4xl'>
                         You Can Maintain Yourself <br />
                         By Our Application
                      </h1>
@@ -53,7 +53,7 @@ const MaintainYourself = () => {
                               <img src={pseudo} alt="" />
                            </div>
                            <div>
-                              <h3 className='mb-[15px]'>Set your personalized spending budget</h3>
+                              <h3 className='mb-[15px] text-[21px] font-bold'>Set your personalized spending budget</h3>
                               <p>
                                  Rhoncus dignissim habitant viverra mollis. Semper
                                  ullamcorper ac pharetra, commodo mauris. Fringilla.
@@ -68,7 +68,7 @@ const MaintainYourself = () => {
                                  alt="" />
                            </div>
                            <div>
-                              <h3 className='mb-[15px]'>User Friendly user Interface Design Layout</h3>
+                              <h3 className='mb-[15px] text-[21px] font-bold'>User Friendly user Interface Design Layout</h3>
                               <p>
                                  Rhoncus dignissim habitant viverra mollis. Semper
                                  ullamcorper ac pharetra, commodo mauris. Fringilla.
@@ -83,7 +83,7 @@ const MaintainYourself = () => {
                                  alt="" />
                            </div>
                            <div>
-                              <h3 className='mb-[15px]'>Made With Powerful Programming Language</h3>
+                              <h3 className='mb-[15px] text-[21px] font-bold'>Made With Powerful Programming Language</h3>
                               <p>
                                  Rhoncus dignissim habitant viverra mollis. Semper
                                  ullamcorper ac pharetra, commodo mauris. Fringilla.

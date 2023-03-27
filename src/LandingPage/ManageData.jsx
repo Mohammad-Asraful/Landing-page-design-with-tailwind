@@ -13,12 +13,12 @@ const ManageData = () => {
                   {/* <!-- course header start --> */}
                   <div className="text-center mb-[45px]">
                      {/* class: course_header */}
-                     <p className='text-lg'>
+                     <p className='text-lg font-bold'>
                         <span className='text-[#ec0d0d]'># No 1 </span>
                         Trending Apps
                      </p>
 
-                     <h1 className='text-[46px]'>
+                     <h1 className='text-[46px] font-bold'>
                         Easy To Manage Your All Data <br />
                         By this Application
                      </h1>
@@ -38,7 +38,7 @@ const ManageData = () => {
                                  alt="" />
                            </div>
 
-                           <h1>29.00</h1>
+                           <h1 className='text-3xl font-bold'>29.00</h1>
                            <small className='block mb-[25px]'>USD Per Month</small>
                            <p>
                               * Generally we deliver the beta website with <br />
@@ -50,7 +50,7 @@ const ManageData = () => {
                            <ul className='leading-[2.5]'>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Domain (Free for first year)</li>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>User Management System</li>
-                              <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Hosting (Free first year 1 GB)</li>
+                              <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Hosting (Free first year <span className='text-[#FF2222]'>1 GB</span>)</li>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Order Management System</li>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Custom Plugin Development</li>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Responsive Design</li>
@@ -74,7 +74,7 @@ const ManageData = () => {
                                  alt="" />
                            </div>
 
-                           <h1>49.00</h1>
+                           <h1 className='text-3xl font-bold'>49.00</h1>
                            <small className='block mb-[25px]'>USD Per Month</small>
                            <p>
                               * Generally we deliver the beta website with <br />
@@ -109,7 +109,7 @@ const ManageData = () => {
                                  alt="" />
                            </div>
 
-                           <h1>79.00</h1>
+                           <h1 className='text-3xl font-bold'>79.00</h1>
                            <small className='block mb-[25px]'>USD Per Month</small>
                            <p>
                               * Generally we deliver the beta website with <br />
@@ -121,7 +121,7 @@ const ManageData = () => {
                            <ul className='leading-[2.5]'>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Domain (Free for first year)</li>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>User Management System</li>
-                              <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Hosting (Free first year 1 GB)</li>
+                              <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Hosting (Free first year <span className='text-[#FF2222]'>1 GB</span>)</li>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Order Management System</li>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Custom Plugin Development</li>
                               <li className='before:content-["✓"] before:text-[#00df81] before:mr-[15px]'>Responsive Design</li>

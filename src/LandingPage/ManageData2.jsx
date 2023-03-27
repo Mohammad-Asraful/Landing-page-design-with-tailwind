@@ -20,7 +20,7 @@ const ManageData2 = () => {
                         <span className='text-[#ec0d0d]'># No 1 </span>
                         Trending Apps</p>
 
-                     <h1 className='text-[42px]'>
+                     <h1 className='text-[42px] font-bold'>
                         Easy To Manage Your All Data <br />
                         By this Application.
                      </h1>

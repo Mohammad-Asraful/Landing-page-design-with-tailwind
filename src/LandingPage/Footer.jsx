@@ -31,7 +31,7 @@ const Footer = () => {
                         <i className="fa-brands fa-instagram"></i>
                      </a>
 
-                     <a className='flex justify-center items-center h-10 w-10 p-[13px] rounded-full bg-[#bfbfbf40] text-[#5f2ded] hover:bg-[#5f2ded] hover:text-white' href="@">:</a>
+                     <a className='flex justify-center items-center h-10 w-10 p-[13px] rounded-full bg-[#bfbfbf40] text-[#5f2ded] hover:bg-[#5f2ded] hover:text-white font-extrabold' href="@">:</a>
                   </div>
                </div>
             </div>

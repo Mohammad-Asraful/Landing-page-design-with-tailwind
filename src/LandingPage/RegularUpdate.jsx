@@ -21,11 +21,11 @@ const RegularUpdate = () => {
                            <span className='text-[#ec0d0d] font-medium'># No1 </span>
                            Trending Apps.
                         </p>
-                        <h1 className='w-[360px] text-[30px]'>Why this App Installed 4000K Customer</h1>
+                        <h1 className='w-[360px] text-[30px] font-bold'>Why this App Installed 4000K Customer</h1>
                      </div>
 
                      <div className="">    {/* class: feature_btn */}
-                        <button className='p-[20px_80px] w-max border border-solid border-[#5f2ded]'>App Features</button>
+                        <button className='p-[20px_80px] w-max font-bold rounded-full border border-solid border-[#5f2ded]'>App Features</button>
                      </div>
 
                      <div className="">   {/* class: feature_description */}

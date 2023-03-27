@@ -16,8 +16,8 @@ const OurApplication = () => {
                         <span className='text-[#ec0d0d]'># Why </span>
                         Choose App?</p>
 
-                     <h2 className="text-3xl mb-[39px]">  {/* class: app_header */}
-                        You can maintain yourself by our Application
+                     <h2 className="text-3xl mb-[39px] font-bold capitalize">  {/* class: app_header */}
+                        You can maintain yourself <br /> by our Application
                      </h2>
                      <p className="text-[#817e7e] mb-[35px]">     {/* class: app_description */}
                         Sed pellentesque lectus phasellus vivamus tempus lectus aliquam ut

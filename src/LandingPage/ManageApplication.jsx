@@ -21,7 +21,7 @@ const ManageApplication = () => {
                      <div className="">
                         {/* class: manage_left_card */}
                         <div className='w-[260px] p-5 bg-white shadow-[0px_0px_4px_#00000012] rounded-lg mb-5'>
-                           <h4>Responsive Friendly Design</h4>
+                           <h4 className='font-bold'>Responsive Friendly Design</h4>
                            <p>
                               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                               Ullam, perspiciatis.
@@ -41,7 +41,7 @@ const ManageApplication = () => {
                   </div>
                   {/* <!--  --> */}
                   <div className="">   {/* class: manage_middle */}
-                     <h1 className='w-[485px] m-[0_auto] text-right text-[30px] mb-10'>
+                     <h1 className='w-[485px] m-[0_auto] text-right text-[30px] mb-10 font-bold'>
                         Easy To Manage Your All Data By <br />
                         this Application
                      </h1>

@@ -2,6 +2,8 @@ import React from 'react'
 
 import i_img from "./Images/footer-img/i.png"
 import div_img from "./Images/footer-img/div.png"
+import div_img1 from "./Images/footer-img/div(1).png"
+import div_img2 from "./Images/footer-img/div(2).png"
 
 const FooterMegaMenu = () => {
    return (
@@ -12,7 +14,7 @@ const FooterMegaMenu = () => {
                <div className="footer_mega_menu flex justify-between items-start">
                   {/* <!-- Footer About start --> */}
                   <div className="footer_about">
-                     <h2 className='text-[22px] mb-[45px]'>About Us</h2>
+                     <h2 className='text-[22px] mb-[45px] font-bold'>About Us</h2>
                      <p className='w-[300px] text-base mb-[40px]'>
                         The world’s first and largest digital marketplace for crypto
                         collectibles and non-fungible tokens (NFTs). Buy, sell, and
@@ -32,7 +34,7 @@ const FooterMegaMenu = () => {
 
                   {/* <!-- Market Place start --> */}
                   <div className="footer_marketplace">
-                     <h2 className='text-[22px] mb-[45px]'>Marketplace</h2>
+                     <h2 className='text-[22px] mb-[45px] font-bold'>Marketplace</h2>
                      <ul className='leading-[2]'>
                         <li>Collectibles</li>
                         <li>Domain Names</li>
@@ -46,7 +48,7 @@ const FooterMegaMenu = () => {
 
                   {/* <!-- Account start --> */}
                   <div className="footer_account">
-                     <h2 className='text-[22px] mb-[45px]'>My Account</h2>
+                     <h2 className='text-[22px] mb-[45px] font-bold'>My Account</h2>
                      <ul className='leading-[2]'>
                         <li>Author</li>
                         <li>How it Works</li>
@@ -60,14 +62,14 @@ const FooterMegaMenu = () => {
 
                   {/* <!-- Post start --> */}
                   <div className="footer_post">
-                     <h2 className='text-[22px] mb-[45px]'>Recent Post</h2>
+                     <h2 className='text-[22px] mb-[45px] font-bold'>Recent Post</h2>
                      <div className="posts">
                         {/* <!-- 1 --> */}
                         <div className="post mb-5 flex justify-start items-center gap-5">
                            <img src={div_img} alt="" />
                            <div>
                               <time>June 2, 2022</time>
-                              <h3 className='border-b-2 border-solid border-black'>
+                              <h3 className='border-b-2 border-solid border-black font-[500]'>
                                  Prevent data loss with encrypted <br />
                                  storage.
                               </h3>
@@ -75,10 +77,10 @@ const FooterMegaMenu = () => {
                         </div>
                         {/* <!-- 2 --> */}
                         <div className="post mb-5 flex justify-start items-center gap-5">
-                           <img src={div_img} alt="" />
+                           <img src={div_img1} alt="" />
                            <div>
                               <time>June 2, 2022</time>
-                              <h3 className='border-b-2 border-solid border-black'>
+                              <h3 className='border-b-2 border-solid border-black font-[500]'>
                                  Prevent data loss with encrypted <br />
                                  storage.
                               </h3>
@@ -86,10 +88,10 @@ const FooterMegaMenu = () => {
                         </div>
                         {/* <!-- 3 --> */}
                         <div className="post mb-5 flex justify-start items-center gap-5">
-                           <img src={div_img} alt="" />
+                           <img src={div_img2} alt="" />
                            <div>
                               <time>June 2, 2022</time>
-                              <h3 className='border-b-2 border-solid border-black'>
+                              <h3 className='border-b-2 border-solid border-black font-[500]'>
                                  Prevent data loss with encrypted <br />
                                  storage.
                               </h3>

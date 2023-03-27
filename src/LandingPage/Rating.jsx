@@ -8,12 +8,12 @@ const Rating = () => {
             <div className="w-[1200px] m-[0_auto]">   {/* class: container */}
                <div className="flex justify-between items-center my-20"> {/* class: rating_section */}
                   <div>
-                     <h1>50 K+</h1>
+                     <h2 className='font-bold'>50 K+</h2>
                      <small>Free Download</small>
                   </div>
 
                   <div>
-                     <h1>20 million</h1>
+                     <h2 className='font-bold'>20 million</h2>
                      <p>3280 avg rating</p>
                   </div>
 
@@ -23,12 +23,12 @@ const Rating = () => {
                   </div>
 
                   <div>
-                     <h1>35 K</h1>
+                     <h2 className='font-bold'>35 K</h2>
                      <small>Free Download</small>
                   </div>
 
                   <div>
-                     <h1>3,000 +</h1>
+                     <h2 className='font-bold'>3,000 +</h2>
                      <small>3280 avg rating</small>
                   </div>
                </div>
