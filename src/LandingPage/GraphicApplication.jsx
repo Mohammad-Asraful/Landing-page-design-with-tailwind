@@ -17,7 +17,7 @@ const GraphicApplication = () => {
                <div className="graphic_div mt-[100px] p-5 bg-[#fbf9ff]">
                   {/* <!-- graphic text start --> */}
                   <div className="graphic_text_div flex justify-between items-center gap-[15px]">
-                     <div>
+                     <div className='w-[70%]'>
                         <p className="graphic_small_header text-lg mb-4">
                            <span className='text-[#ec0d0d]'># Why </span>
                            Choose App?
